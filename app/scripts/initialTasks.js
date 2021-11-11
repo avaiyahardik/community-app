@@ -2,9 +2,10 @@
 (function (mifosX) {
     var defineHeaders = function ($httpProvider, $translateProvider, ResourceFactoryProvider, HttpServiceProvider, $idleProvider, $keepaliveProvider, IDLE_DURATION, WARN_DURATION, KEEPALIVE_INTERVAL) {
         var mainLink = getLocation(window.location.href);
-        var baseApiUrl = "https://demo.mifos.io";
-        var host = "";
-        var portNumber = "";
+
+        var baseApiUrl = "https://localhost:8443";
+        var host = "https://localhost";
+        var portNumber = "8443";
         //accessing from openmf server
         if (mainLink.hostname.indexOf('mifos.io') >= 0) {
             var hostname = window.location.hostname;

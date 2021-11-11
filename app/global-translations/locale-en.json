@@ -216,6 +216,7 @@
   "label.input.firstname": "First name",
   "label.input.lastname": "Last name",
   "label.input.middlename": "Middle name",
+  "label.input.surname": "Surname",
   "label.input.qualification": "Qualification",
   "label.input.mobileNumber": "Mobile Number",
   "label.input.age": "age",
